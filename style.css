@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flexbox;
+    flex: 1;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.container h1{
+    font-size: 44px;
+    text-align: center;
+    margin-top: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+h1:hover{
+    color: crimson;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container p{
+    font-size: 18px;
+    margin: 12px;
+}
+
+.hero{
+    display: flexbox;
+    justify-content: center;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.hero h2{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2:hover{
+    color: aqua;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.hero p{
+    margin-top: 12px;
+}
+
+.container-github{
+    display: flexbox;
+    justify-content: center;
+    text-align: justify;
+    margin: 12px;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: rgb(65, 45, 245);
+    transition: all 0.3s ease-in-out;
+    font-size: 1.4rem;
+}
